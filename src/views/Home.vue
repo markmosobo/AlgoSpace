@@ -6,7 +6,7 @@
 				<div class="container">
 					<!-- Logo Start -->
 					<a class="navbar-brand" href="/">
-						<img src="/assets/images/logo.svg" alt="Logo">
+						<img  alt="AlgoSpace">
 					</a>
 					<!-- Logo End -->
 
@@ -16,16 +16,16 @@
                             <ul class="navbar-nav mr-auto" id="menu">
                                 <li class="nav-item"><a class="nav-link" href="/">home</a>
                                 </li>                                
-                                <li class="nav-item"><a class="nav-link" href="about.html">about us</a></li>
-                                <li class="nav-item"><a class="nav-link" href="services.html">services</a></li>
-                                <li class="nav-item"><a class="nav-link" href="portfolio.html">portfolio</a></li>
-                                <li class="nav-item"><a class="nav-link" href="blog.html">contact us</a></li>
-                                <li class="nav-item highlighted-menu"><a class="nav-link" href="contact-us.html">free consultation</a></li>                               
+                                <li class="nav-item"><a class="nav-link" href="/about">about us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/services">services</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/portfolio">portfolio</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">contact</a></li>
+                                <li class="nav-item highlighted-menu"><a class="nav-link" href="#">free consultation</a></li>                               
                             </ul>
                         </div>
                         <!-- Let’s Start Button Start -->
                         <div class="header-btn d-inline-flex">
-                            <a href="contact-us.html" class="btn-default">free consultation</a>
+                            <a href="#" class="btn-default">free consultation</a>
                         </div>
                         <!-- Let’s Start Button End -->
 					</div>
@@ -39,254 +39,265 @@
 	</header>
 	<!-- Header End -->
 
-    <!-- Hero Section Start -->
-	<div class="hero">
-		<div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-8">
-                    <!-- Hero Content Start -->
-                    <div class="hero-content">
-                        <!-- Section Title Start -->
-                        <div class="section-title">
-                            <h3 class="wow fadeInUp">about our Company</h3>
-                            <h1 class="text-anime-style-3">Web Design, SEO & Internet Marketing For <span>Your Business</span></h1>
-                        </div>
-                        <!-- Section Title End -->
-
-                        <!-- Hero Body Start -->
-                        <div class="hero-body">
-                            <p class="wow fadeInUp" data-wow-delay="0.5s">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo veritatis et quasi architecto beatae vitae dicta sunt.</p>
-                        </div>
-                        <!-- Hero Body End -->
-
-                        <!-- Hero Footer Start -->
-                        <div class="hero-footer">
-                            <a href="#" class="btn-default wow fadeInUp" data-wow-delay="0.75s">free consultation</a>
-                        </div>
-                        <!-- Hero Footer End -->
-                    </div>
-                    <!-- Hero Left Content End -->
-                </div>
-
-                <div class="col-lg-4">
-                    <!-- Hero Video Image Start -->
-                    <div class="hero-video-image">
-                        <div class="hero-image">
-                            <figure class="image-anime reveal">
-                                <img src="/assets/images/hero-img.jpg" alt="">
-                            </figure>                            
-                        </div>
-
-                        <div class="hero-play-button">
-                            <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video"><i class="fa-solid fa-play"></i></a>
-                        </div>
-                    </div>
-                    <!-- Hero Video Image End -->
-                </div>
-            </div>
-        </div>
-	</div>
-	<!-- Hero Section End -->
-
-    <!-- About Section Start -->
-    <div class="about-us">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-8">
+<!-- Hero Section Start -->
+<div class="hero">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <!-- Hero Content Start -->
+                <div class="hero-content">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">about Company</h3>
-                        <h2 class="text-anime-style-3">Websites that tell your brand's story</h2>
+                        <h3 class="wow fadeInUp">About AlgoSpace Limited</h3>
+                        <h1 class="text-anime-style-3">Innovative Web Solutions, SEO & Digital Marketing for <span>Your Success</span></h1>
                     </div>
                     <!-- Section Title End -->
+
+                    <!-- Hero Body Start -->
+                    <div class="hero-body">
+                        <p class="wow fadeInUp" data-wow-delay="0.5s">
+                            At AlgoSpace, we transform your online presence with cutting-edge web design, robust SEO strategies, and data-driven digital marketing solutions. Our mission is to help your business thrive in the digital landscape.
+                        </p>
+                    </div>
+                    <!-- Hero Body End -->
+
+                    <!-- Hero Footer Start -->
+                    <div class="hero-footer">
+                        <a href="#" class="btn-default wow fadeInUp" data-wow-delay="0.75s">Get a Free Consultation</a>
+                    </div>
+                    <!-- Hero Footer End -->
                 </div>
+                <!-- Hero Left Content End -->
             </div>
 
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <!-- About Us Image Start -->
-                    <div class="about-image">
-                        <div class="about-img">
-                            <figure class="image-anime reveal">
-                                <img src="/assets/images/about-us-img.jpg" alt="">
-                            </figure>
-                        </div>
-                        <div class="about-consultation">
-                            <figure>
-                                <img src="/assets/images/about-circle.png" alt="">
-                            </figure>
-                        </div>
+            <div class="col-lg-4">
+                <!-- Hero Video Image Start -->
+                <div class="hero-video-image">
+                    <div class="hero-image">
+                        <figure class="image-anime reveal">
+                            <img src="/assets/images/hero-img.jpg" alt="AlgoSpace Web Design">
+                        </figure>                            
                     </div>
-                    <!-- About Us Image End -->
-                </div>
 
-                <div class="col-lg-6">
-                    <!-- About Us Content Start -->
-                    <div class="about-content">
-                        <p class="wow fadeInUp" data-wow-delay="0.25s">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium , totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit.</p>
-
-                        <p class="wow fadeInUp" data-wow-delay="0.5s">totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae vitae dicta sunt explicabo. sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                        
-                        <p class="wow fadeInUp" data-wow-delay="0.75s">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-
-                        <ul class="wow fadeInUp" data-wow-delay="1s">
-                            <li>Ease of Scalability</li>
-                            <li>Instant Impact</li>
-                            <li>Expertise and Experience</li>
-                            <li>Time Zone Aligned</li>
-                            <li>Full Flexibility</li>
-                            <li>Proactive Support</li>
-                        </ul>
-
-                        <a href="#" class="btn-default wow fadeInUp" data-wow-delay="1.25s">free consultation</a>
+                    <div class="hero-play-button">
+                        <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video"><i class="fa-solid fa-play"></i></a>
                     </div>
-                    <!-- About Us Content End -->
                 </div>
+                <!-- Hero Video Image End -->
             </div>
         </div>
     </div>
-    <!-- About Section End -->
+</div>
+<!-- Hero Section End -->
 
-    <!-- Our Services Section Start -->
-    <div class="our-services">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-7 col-md-7">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">our services</h3>
-                        <h2 class="text-anime-style-3">What we can offer today</h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
 
-                <div class="col-lg-5 col-md-5">
-                    <!-- Section Btn Start -->
-                    <div class="section-btn">
-                        <a href="#" class="btn-default wow fadeInUp" data-wow-delay="0.25s">view all services</a>
-                    </div>
-                    <!-- Section Btn End -->
+<!-- About Section Start -->
+<div class="about-us">
+    <div class="container">
+        <div class="row section-row align-items-center">
+            <div class="col-lg-8">
+                <!-- Section Title Start -->
+                <div class="section-title">
+                    <h3 class="wow fadeInUp">About AlgoSpace Limited</h3>
+                    <h2 class="text-anime-style-3">We Craft Websites That Elevate Your Brand</h2>
                 </div>
+                <!-- Section Title End -->
+            </div>
+        </div>
+
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <!-- About Us Image Start -->
+                <div class="about-image">
+                    <div class="about-img">
+                        <figure class="image-anime reveal">
+                            <img src="/assets/images/about-us-img.jpg" alt="AlgoSpace Digital Solutions">
+                        </figure>
+                    </div>
+                    <div class="about-consultation">
+                        <figure>
+                            <img src="/assets/images/about-circle.png" alt="AlgoSpace Consultation">
+                        </figure>
+                    </div>
+                </div>
+                <!-- About Us Image End -->
             </div>
 
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="0.25s">
-                        <div class="service-content">
-                            <div class="service-content-title">
-                                <h2>web development</h2>
-                                <a href="#"><img src="/assets/images/arrow.svg" alt=""></a>
-                            </div>
-                            <p>totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae.</p>                            
-                        </div>
-                        <div class="service-image">
-                            <figure class="image-anime">
-                                <img src="/assets/images/service-img-1.jpg" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                    <!-- Service Item End -->
-                </div>
+            <div class="col-lg-6">
+                <!-- About Us Content Start -->
+                <div class="about-content">
+                    <p class="wow fadeInUp" data-wow-delay="0.25s">
+                        At AlgoSpace, we specialize in building high-performance websites that not only look stunning but also drive engagement and conversions. Our team of experts crafts tailor-made solutions to give your business a competitive edge.
+                    </p>
 
-                <div class="col-lg-4 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="service-content">
-                            <div class="service-content-title">
-                                <h2>Digital Marketing</h2>
-                                <a href="#"><img src="/assets/images/arrow.svg" alt=""></a>
-                            </div>
-                            <p>totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae.</p>
-                        </div>
-                        <div class="service-image">
-                            <figure class="image-anime">
-                                <img src="/assets/images/service-img-2.jpg" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                    <!-- Service Item End -->
-                </div>
+                    <p class="wow fadeInUp" data-wow-delay="0.5s">
+                        We focus on user-friendly interfaces, modern design trends, and SEO optimization to ensure that your brand stands out in today's digital world.
+                    </p>
+                    
+                    <p class="wow fadeInUp" data-wow-delay="0.75s">
+                        Whether you need a corporate website, an eCommerce platform, or a custom web application, AlgoSpace is your go-to partner for digital transformation.
+                    </p>
 
-                <div class="col-lg-4 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="0.75s">
-                        <div class="service-content">
-                            <div class="service-content-title">
-                                <h2>Game Development</h2>
-                                <a href="#"><img src="/assets/images/arrow.svg" alt=""></a>
-                            </div>
-                            <p>totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae.</p>
-                        </div>
-                        <div class="service-image">
-                            <figure class="image-anime">
-                                <img src="/assets/images/service-img-3.jpg" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                    <!-- Service Item End -->
-                </div>
+                    <ul class="wow fadeInUp" data-wow-delay="1s">
+                        <li>Custom Website Development</li>
+                        <li>SEO & Digital Marketing</li>
+                        <li>Brand Strategy & Design</li>
+                        <li>Mobile-Optimized Solutions</li>
+                        <li>Fast & Secure Hosting</li>
+                        <li>24/7 Proactive Support</li>
+                    </ul>
 
-                <div class="col-lg-4 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="1s">
-                        <div class="service-content">
-                            <div class="service-content-title">
-                                <h2>Mobile App Development</h2>
-                                <a href="#"><img src="/assets/images/arrow.svg" alt=""></a>
-                            </div>
-                            <p>totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae.</p>
-                        </div>                        
-                        <div class="service-image">
-                            <figure class="image-anime">
-                                <img src="/assets/images/service-img-4.jpg" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                    <!-- Service Item End -->
+                    <a href="#" class="btn-default wow fadeInUp" data-wow-delay="1.25s">Request a Free Consultation</a>
                 </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="1.25s">
-                        <div class="service-content">
-                            <div class="service-content-title">
-                                <h2>Networking Services</h2>
-                                <a href="#"><img src="/assets/images/arrow.svg" alt=""></a>
-                            </div>
-                            <p>totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae.</p>
-                        </div>
-                        <div class="service-image">
-                            <figure class="image-anime">
-                                <img src="/assets/images/service-img-5.jpg" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                    <!-- Service Item End -->
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="1.5s">
-                        <div class="service-content">
-                            <div class="service-content-title">
-                                <h2>Graphics Design</h2>
-                                <a href="#"><img src="/assets/images/arrow.svg" alt=""></a>
-                            </div>
-                            <p>totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae.</p>
-                        </div>
-                        <div class="service-image">
-                            <figure class="image-anime">
-                                <img src="/assets/images/service-img-6.jpg" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                    <!-- Service Item End -->
-                </div>
+                <!-- About Us Content End -->
             </div>
         </div>
     </div>
-    <!-- Our Services Section End -->
+</div>
+<!-- About Section End -->
+
+
+<!-- Our Services Section Start -->
+<div class="our-services">
+    <div class="container">
+        <div class="row section-row align-items-center">
+            <div class="col-lg-7 col-md-7">
+                <!-- Section Title Start -->
+                <div class="section-title">
+                    <h3 class="wow fadeInUp">our services</h3>
+                    <h2 class="text-anime-style-3">What we can offer today</h2>
+                </div>
+                <!-- Section Title End -->
+            </div>
+
+            <div class="col-lg-5 col-md-5">
+                <!-- Section Btn Start -->
+                <div class="section-btn">
+                    <a href="#" class="btn-default wow fadeInUp" data-wow-delay="0.25s">view all services</a>
+                </div>
+                <!-- Section Btn End -->
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <!-- Service Item Start -->
+                <div class="service-item wow fadeInUp" data-wow-delay="0.25s">
+                    <div class="service-content">
+                        <div class="service-content-title">
+                            <h2>Web Development</h2>
+                            <a href="#"><img src="/assets/images/arrow.svg" alt=""></a>
+                        </div>
+                        <p>We design and develop responsive, high-performance websites that align with your business goals.</p>                            
+                    </div>
+                    <div class="service-image">
+                        <figure class="image-anime">
+                            <img src="/assets/images/service-img-1.jpg" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <!-- Service Item End -->
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <!-- Service Item Start -->
+                <div class="service-item wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-content">
+                        <div class="service-content-title">
+                            <h2>Digital Marketing</h2>
+                            <a href="#"><img src="/assets/images/arrow.svg" alt=""></a>
+                        </div>
+                        <p>Boost your online presence with expert SEO, social media management, and targeted advertising strategies.</p>
+                    </div>
+                    <div class="service-image">
+                        <figure class="image-anime">
+                            <img src="/assets/images/service-img-2.jpg" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <!-- Service Item End -->
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <!-- Service Item Start -->
+                <div class="service-item wow fadeInUp" data-wow-delay="0.75s">
+                    <div class="service-content">
+                        <div class="service-content-title">
+                            <h2>Game Development</h2>
+                            <a href="#"><img src="/assets/images/arrow.svg" alt=""></a>
+                        </div>
+                        <p>Creating immersive, engaging, and high-quality games for mobile, PC, and console platforms.</p>
+                    </div>
+                    <div class="service-image">
+                        <figure class="image-anime">
+                            <img src="/assets/images/service-img-3.jpg" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <!-- Service Item End -->
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <!-- Service Item Start -->
+                <div class="service-item wow fadeInUp" data-wow-delay="1s">
+                    <div class="service-content">
+                        <div class="service-content-title">
+                            <h2>Mobile App Development</h2>
+                            <a href="#"><img src="/assets/images/arrow.svg" alt=""></a>
+                        </div>
+                        <p>We build intuitive and feature-rich mobile applications that enhance user experience and engagement.</p>
+                    </div>                        
+                    <div class="service-image">
+                        <figure class="image-anime">
+                            <img src="/assets/images/service-img-4.jpg" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <!-- Service Item End -->
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <!-- Service Item Start -->
+                <div class="service-item wow fadeInUp" data-wow-delay="1.25s">
+                    <div class="service-content">
+                        <div class="service-content-title">
+                            <h2>Networking Services</h2>
+                            <a href="#"><img src="/assets/images/arrow.svg" alt=""></a>
+                        </div>
+                        <p>Secure and scalable network solutions for businesses, ensuring seamless communication and data transfer.</p>
+                    </div>
+                    <div class="service-image">
+                        <figure class="image-anime">
+                            <img src="/assets/images/service-img-5.jpg" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <!-- Service Item End -->
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <!-- Service Item Start -->
+                <div class="service-item wow fadeInUp" data-wow-delay="1.5s">
+                    <div class="service-content">
+                        <div class="service-content-title">
+                            <h2>Graphics Design</h2>
+                            <a href="#"><img src="/assets/images/arrow.svg" alt=""></a>
+                        </div>
+                        <p>Creative and eye-catching visuals, logos, and branding materials tailored to your company’s identity.</p>
+                    </div>
+                    <div class="service-image">
+                        <figure class="image-anime">
+                            <img src="/assets/images/service-img-6.jpg" alt="">
+                        </figure>
+                    </div>
+                </div>
+                <!-- Service Item End -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Our Services Section End -->
+
 
     <!-- Our Work Section Start -->
     <div class="our-work">
