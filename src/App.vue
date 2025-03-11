@@ -7,16 +7,9 @@ import HelloWorld from './components/HelloWorld.vue'
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+@import '@/assets/css/plugins.css';
+@import '@/assets/css/styles.css';
+@import '@/assets/search/search.css';
+@import '@/assets/quform/base.css';
+
 </style>

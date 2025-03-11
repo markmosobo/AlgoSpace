@@ -1,892 +1,820 @@
 <template>
-    <!-- Header Start -->
-	<header class="main-header">
-		<div class="header-sticky">
-			<nav class="navbar navbar-expand-lg">
-				<div class="container">
-					<!-- Logo Start -->
-					<a class="navbar-brand" href="/">
-						<img  alt="AlgoSpace">
-					</a>
-					<!-- Logo End -->
 
-					<!-- Main Menu Start -->
-					<div class="collapse navbar-collapse main-menu">
-                        <div class="nav-menu-wrapper">
-                            <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item"><a class="nav-link" href="/">home</a>
-                                </li>                                
-                                <li class="nav-item"><a class="nav-link" href="/about">about us</a></li>
-                                <li class="nav-item"><a class="nav-link" href="/services">services</a></li>
-                                <li class="nav-item"><a class="nav-link" href="/portfolio">portfolio</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">contact</a></li>
-                                <li class="nav-item highlighted-menu"><a class="nav-link" href="#">free consultation</a></li>                               
+    <!-- MAIN WRAPPER
+    ================================================== -->
+    <div class="main-wrapper">
+
+    <!-- HEADER
+    ================================================== -->
+    <header class="header-style1 menu_area-light">
+
+        <div class="navbar-default border-bottom border-color-light-white">
+
+            <!-- start top search -->
+            <div class="top-search bg-primary">
+                <div class="container-fluid px-lg-1-6 px-xl-2-5 px-xxl-2-9">
+                    <form class="search-form" action="search.html" method="GET" accept-charset="utf-8">
+                        <div class="input-group">
+                            <span class="input-group-addon cursor-pointer">
+                                <button class="search-form_submit fas fa-search text-white" type="submit"></button>
+                            </span>
+                            <input type="text" class="search-form_input form-control" name="s" autocomplete="off" placeholder="Type & hit enter...">
+                            <span class="input-group-addon close-search mt-1"><i class="fas fa-times"></i></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- end top search -->
+
+            <div class="container-fluid px-lg-1-6 px-xl-2-5 px-xxl-2-9">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-12">
+                        <div class="menu_area alt-font">
+                            <nav class="navbar navbar-expand-lg navbar-light p-0">
+                                <div class="navbar-header navbar-header-custom">
+                                    <!-- start logo -->
+                                    <a href="index.html" class="navbar-brand"><img id="logo" src="/img/logos/logo-inner.png" alt="logo"></a>
+                                    <!-- end logo -->
+                                </div>
+
+                                <div class="navbar-toggler bg-primary"></div>
+
+                                <!-- start menu area -->
+                                <ul class="navbar-nav ms-auto" id="nav" style="display: none;">
+                                    <li><a href="#!">Home</a>
+                                        <ul>
+                                            <li><a href="index.html">Home 01</a></li>
+                                            <li><a href="index-02.html">Home 02 - Dark Menu</a></li>
+                                            <li><a href="index-03.html">Home 03 - Video Banner</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#!">Pages</a>
+                                        <ul>
+                                            <li><a href="about.html">About Us</a></li>
+                                            <li><a href="services.html">Our Services</a></li>
+                                            <li><a href="our-history.html">Our History</a></li>
+                                            <li><a href="pricing.html">Pricing</a></li>
+                                            <li><a href="faq.html">FAQ</a></li>
+                                            <li><a href="#!">Our Team</a>
+                                                <ul>
+                                                    <li><a href="team.html">Our Team</a></li>
+                                                    <li><a href="team-details.html">Team Details</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="testimonials.html">Testimonials</a></li>
+                                            <li><a href="clients.html">Clients</a></li>
+                                            <li><a href="#!">Others Pages</a>
+                                                <ul>
+                                                    <li><a href="404.html">Error 404</a></li>
+                                                    <li><a href="coming-soon.html">Coming Soon</a></li>
+                                                    <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
+                                                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href="#!">Services</a>
+                                        <ul>
+                                            <li><a href="strategic-planning.html">Strategic Planning</a></li>
+                                            <li><a href="market-analysis.html">Market Analysis</a></li>
+                                            <li><a href="finance-planning.html">Finance Planning</a></li>
+                                            <li><a href="investment-idea.html">Investment Idea</a></li>
+                                            <li><a href="digital-solutions.html">Digital Solutions</a></li>
+                                            <li><a href="media-marketing.html">Media Marketing</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Projects</a>
+                                        <ul>
+                                            <li><a href="#!">Projects Grid</a>
+                                                <ul>
+                                                    <li><a href="projects-two-columns.html">2 Columns</a></li>
+                                                    <li><a href="projects.html">3 Columns – Standard</a></li>
+                                                    <li><a href="projects-four-columns.html">4 Columns</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="portfolio-single.html">Project Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Blog</a>
+                                        <ul>
+                                            <li><a href="#!">Blog Grid</a>
+                                                <ul>
+                                                    <li><a href="blog-grid-two-columns.html">2 Columns</a></li>
+                                                    <li><a href="blog-grid-two-columns-left-sidebar.html">2 Col – Left Sidebar</a></li>
+                                                    <li><a href="blog-grid-two-columns-right-sidebar.html">2 Col – Right Sidebar</a></li>
+                                                    <li><a href="blog-grid.html">3 Columns – Standard</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="blog-list.html">Blog List</a></li>
+                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                                <!-- end menu area -->
+
+                                <!-- start attribute navigation -->
+                                <div class="attr-nav align-items-xl-center ms-xl-auto main-font">
+                                    <ul>
+                                        <li class="search"><a href="#!"><i class="fas fa-search"></i></a></li>
+                                        <li class="d-none d-xl-inline-block"><a href="contact.html" class="butn-style4 md white-hover text-white"><span>Free Quote</span></a></li>
+                                    </ul>
+                                </div>
+                                <!-- end attribute navigation -->
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- BANNER
+    ================================================== -->
+    <section class="full-screen top-position1 p-0">
+        <div class="slider-fade1 owl-carousel owl-theme w-100 min-vh-100">
+            <div class="item bg-img cover-background left-overlay-secondary" data-overlay-dark="90" data-background="img/banner/slider-01.jpg">
+                <div class="container d-flex flex-column">
+                    <div class="row align-items-center min-vh-100 pt-6 pt-md-0">
+                        <div class="col-md-11 col-lg-9 col-xl-8 col-xxl-7 mb-1-9 mb-lg-0 pt-6 pb-12 py-sm-6">
+                            <div class="section-title02">
+                                <div class="mb-2-1">
+                                    <span class="text-primary text-uppercase small letter-spacing-4 d-block mb-3 font-weight-700 sm-title">Business Make Easy</span>
+                                    <h1 class="display-3 font-weight-800 mb-4 text-white">Excellent services for your business.</h1>
+                                </div>
+                                <p class="mb-1-9 font-weight-500 display-28 text-white opacity7 w-md-80 d-none d-sm-block">Take your business to the next level with our sales agency for business idea management tools for you</p>
+                            </div>
+                            <div class="banner-button">
+                                <a href="about.html" class="butn-style4 white-hover m-2">                                       
+                                    <span>Discover More</span>
+                                </a>
+                                <div class="button-text d-inline-block m-2">
+                                    <a href="contact.html" class="text-white text-primary-hover">Get a quote</a>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item bg-img cover-background left-overlay-secondary" data-overlay-dark="90" data-background="img/banner/slider-02.jpg">
+                <div class="container d-flex flex-column">
+                    <div class="row align-items-center min-vh-100 pt-6 pt-md-0">
+                        <div class="col-md-11 col-lg-9 col-xl-8 col-xxl-7 mb-1-9 mb-lg-0 pt-6 pb-12 py-sm-6">
+                            <div class="section-title02">
+                                <div class="mb-2-1">
+                                    <span class="text-primary text-uppercase small letter-spacing-4 d-block mb-3 font-weight-700 sm-title">Business Make Easy</span>
+                                    <h1 class="display-3 font-weight-800 mb-4 text-white">Reliably guiding your business to success</h1>
+                                </div>
+                                <p class="mb-1-9 font-weight-500 display-28 text-white opacity7 w-md-80 d-none d-sm-block">Take your business to the next level with our sales agency for business idea management tools for you</p>
+                            </div>
+                            <div class="banner-button">
+                                <a href="about.html" class="butn-style4 white-hover m-2">                                       
+                                    <span>Discover More</span>
+                                </a>
+                                <div class="button-text d-inline-block m-2">
+                                    <a href="contact.html" class="text-white text-primary-hover">Get a quote</a>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>                
+            <div class="item bg-img cover-background left-overlay-secondary" data-overlay-dark="90" data-background="img/banner/slider-03.jpg">
+                <div class="container d-flex flex-column">
+                    <div class="row align-items-center min-vh-100 pt-6 pt-md-0">
+                        <div class="col-md-11 col-lg-9 col-xl-8 col-xxl-7 mb-1-9 mb-lg-0 pt-6 pb-12 py-sm-6">
+                            <div class="section-title02">
+                                <div class="mb-2-1">
+                                    <span class="text-primary text-uppercase small letter-spacing-4 d-block mb-3 font-weight-700 sm-title">Business Make Easy</span>
+                                    <h1 class="display-3 font-weight-800 mb-4 text-white">Creating ideas of business management</h1>
+                                </div>
+                                <p class="mb-1-9 font-weight-500 display-28 text-white opacity7 w-md-80 d-none d-sm-block">Take your business to the next level with our sales agency for business idea management tools for you</p>
+                            </div>
+                            <div class="banner-button">
+                                <a href="about.html" class="butn-style4 white-hover white m-2">                                       
+                                    <span>Discover More</span>
+                                </a>
+                                <div class="button-text d-inline-block m-2">
+                                    <a href="contact.html" class="text-white text-primary-hover">Get a quote</a>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES
+    ================================================== -->
+    <section>
+        <div class="container">
+            <div class="text-center section-title02 mb-2-1 wow fadeInUp" data-wow-delay="100ms">
+                <span class="sm-title">Our Dedicated Services</span>
+                <h2 class="mb-0 ls-minus-2px display-5 font-weight-800 lh-1">Service We Provide</h2>
+            </div>
+            <div class="row mb-2-9 mt-n2-6">
+                <div class="col-md-6 col-xl-3 mt-2-6 wow fadeInUp" data-wow-delay="100ms">
+                    <div class="card card-style06 border-color-light-black bg-transparent h-100">
+                        <div class="card-body text-center">
+                            <div class="service-img">
+                                <img src="/img/icons/03.png" alt="..." class="position-relative z-index-9 mt-2-2 w-70px">
+                                <div class="icon-circle"></div>
+                            </div>
+                            <h3 class="h5"><a href="strategic-planning.html">Strategic Planning</a></h3>
+                            <p class="mb-0">We help a business generate new product ideas with intelligence.</p>
+                        </div>
+                        <div class="card-btn">
+                            <div class="main-butn">
+                                <span class="main-text">Read More</span>
+                            </div>
+                            <div class="hover-butn">
+                                <a href="strategic-planning.html">
+                                    <span class="inner-butn">
+                                        <span class="hover-text">Read More</span>
+                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-3 mt-2-6 wow fadeInUp" data-wow-delay="150ms">
+                    <div class="card card-style06 border-color-light-black bg-transparent h-100">
+                        <div class="card-body text-center">
+                            <div class="service-img">
+                                <img src="/img/icons/04.png" alt="..." class="position-relative z-index-9 mt-2-2 w-70px">
+                                <div class="icon-circle"></div>
+                            </div>
+                            <h3 class="h5"><a href="market-analysis.html">Market Analysis</a></h3>
+                            <p class="mb-0">We help a business generate new product ideas with intelligence.</p>
+                        </div>
+                        <div class="card-btn">
+                            <div class="main-butn">
+                                <span class="main-text">Read More</span>
+                            </div>
+                            <div class="hover-butn">
+                                <a href="market-analysis.html">
+                                    <span class="inner-butn">
+                                        <span class="hover-text">Read More</span>
+                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-3 mt-2-6 wow fadeInUp" data-wow-delay="200ms">
+                    <div class="card card-style06 border-color-light-black bg-transparent h-100">
+                        <div class="card-body text-center">
+                            <div class="service-img">
+                                <img src="/img/icons/05.png" alt="..." class="position-relative z-index-9 mt-2-2 w-70px">
+                                <div class="icon-circle"></div>
+                            </div>
+                            <h3 class="h5"><a href="finance-planning.html">Finance Planning</a></h3>
+                            <p class="mb-0">We help a business generate new product ideas with intelligence.</p>
+                        </div>
+                        <div class="card-btn">
+                            <div class="main-butn">
+                                <span class="main-text">Read More</span>
+                            </div>
+                            <div class="hover-butn">
+                                <a href="finance-planning.html">
+                                    <span class="inner-butn">
+                                        <span class="hover-text">Read More</span>
+                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-3 mt-2-6 wow fadeInUp" data-wow-delay="250ms">
+                    <div class="card card-style06 border-color-light-black bg-transparent h-100">
+                        <div class="card-body text-center">
+                            <div class="service-img">
+                                <img src="/img/icons/06.png" alt="..." class="position-relative z-index-9 mt-2-2 w-70px">
+                                <div class="icon-circle"></div>
+                            </div>
+                            <h3 class="h5"><a href="investment-idea.html">Investment Idea</a></h3>
+                            <p class="mb-0">We help a business generate new product ideas with intelligence.</p>
+                        </div>
+                        <div class="card-btn">
+                            <div class="main-butn">
+                                <span class="main-text">Read More</span>
+                            </div>
+                            <div class="hover-butn">
+                                <a href="investment-idea.html">
+                                    <span class="inner-butn">
+                                        <span class="hover-text">Read More</span>
+                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto text-center wow fadeInUp" data-wow-delay="100ms">
+                    <div class="d-inline-block align-middle me-2">
+                        <img src="/img/icons/11.png" alt="..." class="w-40px">
+                    </div>
+                    <div class="letter-spacing-minus-5px d-inline-block align-middle display-27">We’re committed to create a change that matters!</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT US 
+    ================================================== -->
+    <section class="overflow-visible bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-2-3 mb-lg-0 wow fadeInUp" data-wow-delay="100ms">
+                    <div class="position-relative pe-xl-1-9">
+                        <img src="/img/content/about-01.jpg" class="border-radius-10" alt="...">
+                        <div class="bg-secondary d-inline-block border-radius-10 p-1-9 position-absolute left-5 left-sm-n5 bottom-n5">
+                            <p class="text-white mb-1">Trusted By</p>
+                            <h3 class="mb-0 h1 text-white">75k</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="ps-xl-2-3 position-relative">
+                        <div class="section-title02 mb-lg-4 wow fadeInUp" data-wow-delay="100ms">
+                            <span class="sm-title">about us</span>
+                            <h2 class="mb-0 ls-minus-2px display-5 font-weight-800 lh-1">The essential steps for business success</h2>
+                        </div>
+                        <div class="z-index-1 position-relative">
+                            <p class="mb-1-9 wow fadeInUp" data-wow-delay="150ms">Our objective is to offer a high-quality service and a dependable source of income to our investors while simultaneously minimizing any potential risks and automating and simplifying the relationships.</p>
+                            <div class="row align-items-center">
+                                <div class="col-lg-7 wow fadeInUp" data-wow-delay="200ms">
+                                    <div class="d-flex mb-1-9">
+                                        <div class="flex-shrink-0">
+                                            <img src="/img/icons/12.png" alt="..." class="w-45px">
+                                        </div>
+                                        <div class="flex-grow-1 ms-3">
+                                            <h4 class="h5">Business Innovations</h4>
+                                            <p class="mb-0">Best working</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div class="flex-shrink-0">
+                                            <img src="/img/icons/13.png" alt="..." class="w-45px">
+                                        </div>
+                                        <div class="flex-grow-1 ms-3">
+                                            <h4 class="h5">Marketing Solution</h4>
+                                            <p class="mb-0">Best working</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-5 d-none d-lg-block wow fadeInUp" data-wow-delay="250ms">
+                                    <div>
+                                        <img src="/img/content/about-02.jpg" class="border-radius-10" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXTRA
+    ================================================== -->
+    <section class="bg-img cover-background pb-19 pb-lg-24 secondary-overlay" data-overlay-dark="8" data-background="img/bg/bg-02.jpg">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 mb-1-9 mb-lg-0">
+                    <div class="section-title02">
+                        <h2 class="mb-0 ls-minus-2px display-5 font-weight-800 lh-1 w-100 text-white">Offering the best experience of business consulting</h2>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="text-start text-lg-end">
+                        <a href="contact.html" class="butn-style4 white-hover"><span class="text-btn">Discover More Info</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COUNTER
+    ================================================== -->
+    <section class="pt-0 pb-0 overflow-visible bg-transparent">
+        <div class="container">
+            <div class="counter-style01 text-center border-radius-10">
+                <div class="row mt-n1-9">
+                    <div class="col-sm-6 col-lg-3 mt-1-9">
+                        <div class="display-14 display-md-11 display-lg-8 mb-1 counter-number font-weight-800 text-secondary lh-1">
+                            <div class="odometer odometer-auto-theme" data-count="25">0</div>+
+                        </div>
+                        <p class="mb-0 opacity9">Years Experience</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mt-1-9">
+                        <div class="display-14 display-md-11 display-lg-8 mb-1 counter-number font-weight-800 text-secondary lh-1">
+                            <div class="odometer odometer-auto-theme" data-count="23">0</div>k
+                        </div>
+                        <p class="mb-0 opacity9">Project Completed</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mt-1-9">
+                        <div class="display-14 display-md-11 display-lg-8 mb-1 counter-number font-weight-800 text-secondary lh-1">
+                            <div class="odometer odometer-auto-theme" data-count="226">0</div>+
+                        </div>
+                        <p class="mb-0 opacity9">Consultation</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mt-1-9">
+                        <div class="display-14 display-md-11 display-lg-8 mb-1 counter-number font-weight-800 text-secondary lh-1">
+                            <div class="odometer odometer-auto-theme" data-count="958">0</div>+
+                        </div>
+                        <p class="mb-0 opacity9">Happy Clients</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEAM
+    ================================================== -->
+    <section>
+        <div class="container">
+            <div class="section-title02 mb-2-3 mb-md-6 text-center wow fadeInUp" data-wow-delay="100ms">
+                <span class="sm-title">Meet Our Team</span>
+                <h2 class="mb-0 ls-minus-2px display-5 font-weight-800 lh-1">Our Specialized Team</h2>
+            </div>
+            <div class="row mt-n1-9">
+                <div class="col-md-6 col-xl-3 mt-1-9 wow fadeInUp" data-wow-delay="100ms">
+                    <div class="bg-light p-1-6 border-radius-10 text-center team-style01 transition-hover">
+                        <img src="/img/team/team-01.jpg" class="rounded-circle" alt="...">
+                        <div class="pt-4">
+                            <h3 class="h6 mb-0"><a href="#!">Amy Jenkins</a></h3>
+                            <div class="small mb-4">Financial Analyst</div>
+                            <ul class="social-icon-style5 mb-0 list-unstyled">
+                                <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#!"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                <li><a href="#!"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>
                         </div>
-                        <!-- Let’s Start Button Start -->
-                        <div class="header-btn d-inline-flex">
-                            <a href="#" class="btn-default">free consultation</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-3 mt-1-9 wow fadeInUp" data-wow-delay="150ms">
+                    <div class="bg-light p-1-6 border-radius-10 text-center team-style01 transition-hover">
+                        <img src="/img/team/team-02.jpg" class="rounded-circle" alt="...">
+                        <div class="pt-4">
+                            <h3 class="h6 mb-0"><a href="#!">Jeffrey Mueller</a></h3>
+                            <div class="small mb-4">Marketing Analyst</div>
+                            <ul class="social-icon-style5 mb-0 list-unstyled">
+                                <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#!"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                <li><a href="#!"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
                         </div>
-                        <!-- Let’s Start Button End -->
-					</div>
-					<!-- Main Menu End -->
-
-					<div class="navbar-toggle"></div>
-				</div>
-			</nav>
-			<div class="responsive-menu"></div>
-		</div>
-	</header>
-	<!-- Header End -->
-
-<!-- Hero Section Start -->
-<div class="hero">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-8">
-                <!-- Hero Content Start -->
-                <div class="hero-content">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">About AlgoSpace Limited</h3>
-                        <h1 class="text-anime-style-3">Innovative Web Solutions, SEO & Digital Marketing for <span>Your Success</span></h1>
                     </div>
-                    <!-- Section Title End -->
-
-                    <!-- Hero Body Start -->
-                    <div class="hero-body">
-                        <p class="wow fadeInUp" data-wow-delay="0.5s">
-                            At AlgoSpace, we transform your online presence with cutting-edge web design, robust SEO strategies, and data-driven digital marketing solutions. Our mission is to help your business thrive in the digital landscape.
-                        </p>
-                    </div>
-                    <!-- Hero Body End -->
-
-                    <!-- Hero Footer Start -->
-                    <div class="hero-footer">
-                        <a href="#" class="btn-default wow fadeInUp" data-wow-delay="0.75s">Get a Free Consultation</a>
-                    </div>
-                    <!-- Hero Footer End -->
                 </div>
-                <!-- Hero Left Content End -->
+                <div class="col-md-6 col-xl-3 mt-1-9 wow fadeInUp" data-wow-delay="200ms">
+                    <div class="bg-light p-1-6 border-radius-10 text-center team-style01 transition-hover">
+                        <img src="/img/team/team-03.jpg" class="rounded-circle" alt="...">
+                        <div class="pt-4">
+                            <h3 class="h6 mb-0"><a href="#!">Anne Arias</a></h3>
+                            <div class="small mb-4">Statistical Analyst</div>
+                            <ul class="social-icon-style5 mb-0 list-unstyled">
+                                <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#!"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                <li><a href="#!"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-3 mt-1-9 wow fadeInUp" data-wow-delay="250ms">
+                    <div class="bg-light p-1-6 border-radius-10 text-center team-style01 transition-hover">
+                        <img src="/img/team/team-04.jpg" class="rounded-circle" alt="...">
+                        <div class="pt-4">
+                            <h3 class="h6 mb-0"><a href="#!">Gerald Ruggiero</a></h3>
+                            <div class="small mb-4">Business Eng.</div>
+                            <ul class="social-icon-style5 mb-0 list-unstyled">
+                                <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#!"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                <li><a href="#!"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
+    </section>
 
-            <div class="col-lg-4">
-                <!-- Hero Video Image Start -->
-                <div class="hero-video-image">
-                    <div class="hero-image">
-                        <figure class="image-anime reveal">
-                            <img src="/assets/images/hero-img.jpg" alt="AlgoSpace Web Design">
-                        </figure>                            
+    <!-- TESTIMONIALS
+    ================================================== -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="section-title02 mb-1-9 mb-xl-5 text-center">
+                <span class="sm-title">Testimonials.</span>
+                <h2 class="mb-0 ls-minus-2px display-5 font-weight-800 lh-1">Reviews of Our Clients</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-9 text-center mx-auto">
+                    <div class="testimonial-carousel-three owl-carousel owl-theme mb-1-9 mb-lg-5" data-slider-id="1">
+                        <div>
+                            <img src="/img/icons/quote.png" alt="..." class="w-55px mb-2-0">
+                            <p class="mb-1-9 lead lh-base display-25 display-lg-23">"business consulting has really helped our business. Definitely worth the investment.business consulting has made a huge difference! It has saved me so much time."</p>
+                            <div>
+                                <h5 class="text-primary mb-0 font-weight-500">Lizabeth G. Mack</h5>
+                                <span class="small">- Marketing Lead</span>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="/img/icons/quote.png" alt="..." class="w-55px mb-2-0">
+                            <p class="mb-1-9 lead lh-base display-25 display-lg-23">"If you want to take your business to the next level, use business and don't look any further.business makes me more productive and gets the job done in a fraction of the time."</p>
+                            <div>
+                                <h5 class="text-primary mb-0 font-weight-500">Karla M. Søndergaard</h5>
+                                <span class="small">- Networking Lead</span>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="/img/icons/quote.png" alt="..." class="w-55px mb-2-0">
+                            <p class="mb-1-9 lead lh-base display-25 display-lg-23">"I would recommend business for anyone trying to get the word out about their business. It has saved me so much time.Would definitely recommend business and will definitely be ordering again."</p>
+                            <div>
+                                <h5 class="text-primary mb-0 font-weight-500">Mustafa Haile</h5>
+                                <span class="small">- Financial Analyst</span>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="hero-play-button">
-                        <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video"><i class="fa-solid fa-play"></i></a>
+                    <div class="owl-thumbs testimonial-thumbs4" data-slider-id="1">
+                        <button class="owl-thumb-item rounded-circle w-90px me-2 active"><img src="/img/avatar/avatar-04.jpg" class="rounded-circle" alt="..."></button>
+                        <button class="owl-thumb-item w-90px rounded-circle me-2"><img src="/img/avatar/avatar-05.jpg" class="rounded-circle" alt="..."></button>
+                        <button class="owl-thumb-item w-90px rounded-circle me-2"><img src="/img/avatar/avatar-06.jpg" class="rounded-circle" alt="..."></button>
                     </div>
                 </div>
-                <!-- Hero Video Image End -->
+            </div>
+        </div>
+    </section>
+
+    <!-- EXTRA
+    ================================================== -->
+    <section class="parallax secondary-overlay" data-overlay-dark="8" data-background="img/bg/bg-04.jpg">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 order-2 order-lg-1 mt-1-9 mt-lg-0">
+                    <h4 class="text-white text-center text-lg-end mb-0 display-5 font-weight-800">Whether you are looking for answers, would like to solve a any business problem</h4>
+                </div>
+                <div class="col-lg-5 order-1 order-lg-2">
+                    <div class="text-center">
+                    <div class="story-video d-sm-inline-block align-middle z-index-1 text-sm-start mb-1-9 mb-sm-0">
+                        <a class="video video_btn" href="https://www.youtube.com/watch?v=pDWUf_g2zsc"><i class="fa fa-play text-white"></i></a>
+                    </div>
+                        <div class="align-middle d-sm-inline-block ms-sm-6">
+                            <a href="video/bg-video.mp4" class="text-primary border-bottom border-color-light-white">
+                                Video Presentation </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOG
+    ================================================== -->
+    <section>
+        <div class="container">
+            <div class="section-title02  mb-2-4 mb-md-2-6 text-center wow fadeInUp" data-wow-delay="100ms">
+                <span class="sm-title">Lastest news</span>
+                <h2 class="mb-0 ls-minus-2px display-5 font-weight-800 lh-1">News & Articles</h2>
+            </div>
+            <div class="row mb-6 mt-n1-9">
+                <div class="col-md-6 col-lg-4 mt-1-9 wow fadeInUp" data-wow-delay="100ms">
+                    <article class="card card-style05">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img src="/img/blog/blog-01.jpg" class="radius-top" alt="...">
+                        </div>
+                        <div class="card-body position-relative pt-2-6 pb-1-9 pb-xl-2-6 px-1-9 px-xl-2-4">
+                            <div class="post-date">
+                                <span class="mb-0 d-block lh-1 display-17">09</span>
+                                <span class="d-block month">Nov</span>
+                            </div>
+                            <a href="#!" class="text-uppercase fw-bold display-31 blog-tag me-4 position-relative">Analytics</a>
+                            <a href="#!" class="display-31">13 Comments</a>
+                            <h3 class="h4 mb-0 mt-3"><a href="blog-details.html">Customer onboarding there business classes.</a></h3>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-1-9 wow fadeInUp" data-wow-delay="150ms">
+                    <article class="card card-style05">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img src="/img/blog/blog-02.jpg" class="radius-top" alt="...">
+                        </div>
+                        <div class="card-body position-relative pt-2-6 pb-1-9 pb-xl-2-6 px-1-9 px-xl-2-4">
+                            <div class="post-date">
+                                <span class="mb-0 d-block lh-1 display-17">04</span>
+                                <span class="d-block month">Nov</span>
+                            </div>
+                            <a href="#!" class="text-uppercase fw-bold display-31 blog-tag me-4 position-relative">Finance</a>
+                            <a href="#!" class="display-31">08 Comments</a>
+                            <h3 class="h4 mb-0 mt-3"><a href="blog-details.html">How investing in dependend increasing to business</a></h3>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-1-9 wow fadeInUp" data-wow-delay="200ms">
+                    <article class="card card-style05">
+                        <div class="blog-img position-relative overflow-hidden">
+                        <img src="/img/blog/blog-03.jpg" class="radius-top" alt="...">
+                        </div>
+                        <div class="card-body position-relative pt-2-6 pb-1-9 pb-xl-2-6 px-1-9 px-xl-2-4">
+                            <div class="post-date">
+                                <span class="mb-0 d-block lh-1 display-17">30</span>
+                                <span class="d-block month">Oct</span>
+                            </div>
+                            <a href="#!" class="text-uppercase fw-bold display-31 blog-tag me-4 position-relative">Consultation</a>
+                            <a href="#!" class="display-31">01 Comments</a>
+                            <h3 class="h4 mb-0 mt-3"><a href="blog-details.html">7 Productivity tips to avoid burnout when working</a></h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="text-center wow fadeInUp" data-wow-delay="550ms">
+                <a href="blog-grid.html" class="butn-style4 white-hover hover-bg">View All Blog</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ADDRESS
+    ================================================== -->
+    <div class="overflow-visible">
+        <div class="container">
+            <div class="row footer-address">
+                <div class="col-lg-3 mb-3 mb-lg-0">
+                    <div class="bg-primary shadow p-1-9 border-radius-10 text-center h-100 word-wrap">
+                        <div class="footer-logo mx-auto">
+                            <a href="index.html">
+                                <img src="/img/logos/footer-light-logo.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="bg-white p-1-9 shadow border-radius-10 position-relative word-wrap">
+                        <div class="row mt-n3">
+                            <div class="col-md-4 mt-3">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                        <i class="ti-location-pin display-24 mt-1 d-block text-primary"></i>
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <p class="mb-0">74 Norava Street 542B, Great North Town 51 MT.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mt-3">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                        <i class="ti-mobile display-24 mt-1 d-block text-primary"></i>
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <p class="mb-0">(+44) 123 456 789</p>
+                                        <p class="mb-0">(+1)  523-567-987</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mt-3">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                        <i class="ti-email display-24 mt-1 d-block text-primary"></i>
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <p class="mb-0">addyour@email</p>
+                                        <p class="mb-0">info@yourdomain</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Hero Section End -->
 
-
-<!-- About Section Start -->
-<div class="about-us">
-    <div class="container">
-        <div class="row section-row align-items-center">
-            <div class="col-lg-8">
-                <!-- Section Title Start -->
-                <div class="section-title">
-                    <h3 class="wow fadeInUp">About AlgoSpace Limited</h3>
-                    <h2 class="text-anime-style-3">We Craft Websites That Elevate Your Brand</h2>
-                </div>
-                <!-- Section Title End -->
-            </div>
-        </div>
-
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <!-- About Us Image Start -->
-                <div class="about-image">
-                    <div class="about-img">
-                        <figure class="image-anime reveal">
-                            <img src="/assets/images/about-us-img.jpg" alt="AlgoSpace Digital Solutions">
-                        </figure>
-                    </div>
-                    <div class="about-consultation">
-                        <figure>
-                            <img src="/assets/images/about-circle.png" alt="AlgoSpace Consultation">
-                        </figure>
+    <!-- FOOTER
+    ================================================== -->
+    <footer class="footer-style01 pt-0 overflow-visible bg-secondary">
+        <div class="container">
+            <div class="row mt-n2-9">
+                <div class="col-sm-6 col-lg-4 pe-5 mt-2-9">
+                    <div class="footer-top">
+                        <h3 class="mb-1-9 h5">About us</h3>
+                        <p class="mb-1-6 text-white">We have 25+ years experience. Helping you overcome business challenges.</p>
+                        <ul class="social-icon-style6 mb-0 d-inline-block list-unstyled">
+                            <li class="d-inline-block me-2"><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="d-inline-block me-2"><a href="#!"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li class="d-inline-block me-2"><a href="#!"><i class="fab fa-youtube"></i></a></li>
+                            <li class="d-inline-block"><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
                     </div>
                 </div>
-                <!-- About Us Image End -->
-            </div>
-
-            <div class="col-lg-6">
-                <!-- About Us Content Start -->
-                <div class="about-content">
-                    <p class="wow fadeInUp" data-wow-delay="0.25s">
-                        At AlgoSpace, we specialize in building high-performance websites that not only look stunning but also drive engagement and conversions. Our team of experts crafts tailor-made solutions to give your business a competitive edge.
-                    </p>
-
-                    <p class="wow fadeInUp" data-wow-delay="0.5s">
-                        We focus on user-friendly interfaces, modern design trends, and SEO optimization to ensure that your brand stands out in today's digital world.
-                    </p>
-                    
-                    <p class="wow fadeInUp" data-wow-delay="0.75s">
-                        Whether you need a corporate website, an eCommerce platform, or a custom web application, AlgoSpace is your go-to partner for digital transformation.
-                    </p>
-
-                    <ul class="wow fadeInUp" data-wow-delay="1s">
-                        <li>Custom Website Development</li>
-                        <li>SEO & Digital Marketing</li>
-                        <li>Brand Strategy & Design</li>
-                        <li>Mobile-Optimized Solutions</li>
-                        <li>Fast & Secure Hosting</li>
-                        <li>24/7 Proactive Support</li>
+                <div class="col-sm-6 col-lg-2 mt-2-9">
+                    <h3 class="h5 mb-1-9">Services</h3>
+                    <ul class="footer-list ps-0">
+                        <li>
+                            <a href="strategic-planning.html">Strategic Planning</a>
+                        </li>
+                        <li>
+                            <a href="market-analysis.html">Market Analysis</a>
+                        </li>
+                        <li>
+                            <a href="finance-planning.html">Finance Planning</a>
+                        </li>
+                        <li>
+                            <a href="investment-idea.html">Investment Idea</a>
+                        </li>
+                        <li>
+                            <a href="digital-solutions.html">Digital Solutions</a>
+                        </li>
                     </ul>
-
-                    <a href="#" class="btn-default wow fadeInUp" data-wow-delay="1.25s">Request a Free Consultation</a>
                 </div>
-                <!-- About Us Content End -->
-            </div>
-        </div>
-    </div>
-</div>
-<!-- About Section End -->
-
-
-<!-- Our Services Section Start -->
-<div class="our-services">
-    <div class="container">
-        <div class="row section-row align-items-center">
-            <div class="col-lg-7 col-md-7">
-                <!-- Section Title Start -->
-                <div class="section-title">
-                    <h3 class="wow fadeInUp">our services</h3>
-                    <h2 class="text-anime-style-3">What we can offer today</h2>
-                </div>
-                <!-- Section Title End -->
-            </div>
-
-            <div class="col-lg-5 col-md-5">
-                <!-- Section Btn Start -->
-                <div class="section-btn">
-                    <a href="#" class="btn-default wow fadeInUp" data-wow-delay="0.25s">view all services</a>
-                </div>
-                <!-- Section Btn End -->
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <!-- Service Item Start -->
-                <div class="service-item wow fadeInUp" data-wow-delay="0.25s">
-                    <div class="service-content">
-                        <div class="service-content-title">
-                            <h2>Web Development</h2>
-                            <a href="#"><img src="/assets/images/arrow.svg" alt=""></a>
+                <div class="col-sm-6 col-lg-3 mt-2-9">
+                    <h3 class="h5 mb-1-9">Recent News</h3>
+                    <div class="d-flex mb-1-9">
+                        <div class="flex-shrink-0 image-hover">
+                            <img src="/img/content/footer-thumb1.jpg" class="rounded" alt="...">
                         </div>
-                        <p>We design and develop responsive, high-performance websites that align with your business goals.</p>                            
-                    </div>
-                    <div class="service-image">
-                        <figure class="image-anime">
-                            <img src="/assets/images/service-img-1.jpg" alt="">
-                        </figure>
-                    </div>
-                </div>
-                <!-- Service Item End -->
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <!-- Service Item Start -->
-                <div class="service-item wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-content">
-                        <div class="service-content-title">
-                            <h2>Digital Marketing</h2>
-                            <a href="#"><img src="/assets/images/arrow.svg" alt=""></a>
-                        </div>
-                        <p>Boost your online presence with expert SEO, social media management, and targeted advertising strategies.</p>
-                    </div>
-                    <div class="service-image">
-                        <figure class="image-anime">
-                            <img src="/assets/images/service-img-2.jpg" alt="">
-                        </figure>
-                    </div>
-                </div>
-                <!-- Service Item End -->
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <!-- Service Item Start -->
-                <div class="service-item wow fadeInUp" data-wow-delay="0.75s">
-                    <div class="service-content">
-                        <div class="service-content-title">
-                            <h2>Game Development</h2>
-                            <a href="#"><img src="/assets/images/arrow.svg" alt=""></a>
-                        </div>
-                        <p>Creating immersive, engaging, and high-quality games for mobile, PC, and console platforms.</p>
-                    </div>
-                    <div class="service-image">
-                        <figure class="image-anime">
-                            <img src="/assets/images/service-img-3.jpg" alt="">
-                        </figure>
-                    </div>
-                </div>
-                <!-- Service Item End -->
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <!-- Service Item Start -->
-                <div class="service-item wow fadeInUp" data-wow-delay="1s">
-                    <div class="service-content">
-                        <div class="service-content-title">
-                            <h2>Mobile App Development</h2>
-                            <a href="#"><img src="/assets/images/arrow.svg" alt=""></a>
-                        </div>
-                        <p>We build intuitive and feature-rich mobile applications that enhance user experience and engagement.</p>
-                    </div>                        
-                    <div class="service-image">
-                        <figure class="image-anime">
-                            <img src="/assets/images/service-img-4.jpg" alt="">
-                        </figure>
-                    </div>
-                </div>
-                <!-- Service Item End -->
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <!-- Service Item Start -->
-                <div class="service-item wow fadeInUp" data-wow-delay="1.25s">
-                    <div class="service-content">
-                        <div class="service-content-title">
-                            <h2>Networking Services</h2>
-                            <a href="#"><img src="/assets/images/arrow.svg" alt=""></a>
-                        </div>
-                        <p>Secure and scalable network solutions for businesses, ensuring seamless communication and data transfer.</p>
-                    </div>
-                    <div class="service-image">
-                        <figure class="image-anime">
-                            <img src="/assets/images/service-img-5.jpg" alt="">
-                        </figure>
-                    </div>
-                </div>
-                <!-- Service Item End -->
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <!-- Service Item Start -->
-                <div class="service-item wow fadeInUp" data-wow-delay="1.5s">
-                    <div class="service-content">
-                        <div class="service-content-title">
-                            <h2>Graphics Design</h2>
-                            <a href="#"><img src="/assets/images/arrow.svg" alt=""></a>
-                        </div>
-                        <p>Creative and eye-catching visuals, logos, and branding materials tailored to your company’s identity.</p>
-                    </div>
-                    <div class="service-image">
-                        <figure class="image-anime">
-                            <img src="/assets/images/service-img-6.jpg" alt="">
-                        </figure>
-                    </div>
-                </div>
-                <!-- Service Item End -->
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Our Services Section End -->
-
-
-    <!-- Our Work Section Start -->
-    <div class="our-work">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-8 col-md-9">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">our works</h3>
-                        <h2 class="text-anime-style-3">Excellence from concept to completion</h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-
-                <div class="col-lg-4 col-md-3">
-                    <!-- Section Btn Start -->
-                    <div class="section-btn wow fadeInUp" data-wow-delay="0.25s">
-                        <a href="#" class="btn-default">all portfolio</a>
-                    </div>
-                    <!-- Section Btn End -->
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-6">
-                    <!-- Works Item Start -->
-                    <div class="works-item wow fadeInUp" data-wow-delay="0.25s">
-                        <div class="works-image">
-                            <figure class="image-anime">
-                                <img src="/assets/images/works-img-1.jpg" alt="">
-                            </figure>
-                        </div>
-                        <div class="works-content">
-                            <h2>Operation Atlas</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="flex-grow-1 ms-3">
+                            <h4 class="text-white mb-2 h6"><a href="blog-details.html" class="text-white text-primary-hover">People saying about business.</a></h4>
+                            <small class="text-white opacity7">8 Jan, 2024</small>
                         </div>
                     </div>
-                    <!-- Works Item End -->
-                </div>
-
-                <div class="col-md-6">
-                    <!-- Works Item Start -->
-                    <div class="works-item wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="works-image">
-                            <figure class="image-anime">
-                                <img src="/assets/images/works-img-2.jpg" alt="">
-                            </figure>
+                    <div class="d-flex">
+                        <div class="flex-shrink-0 image-hover">
+                            <img src="/img/content/footer-thumb2.jpg" class="rounded" alt="...">
                         </div>
-                        <div class="works-content">
-                            <h2>Quantum Quest</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="flex-grow-1 ms-3">
+                            <h4 class="text-white mb-2 h6"><a href="blog-details.html" class="text-white text-primary-hover">Providing all types of business</a></h4>
+                            <small class="text-white opacity7">3 Jan, 2024</small>
                         </div>
                     </div>
-                    <!-- Works Item End -->
                 </div>
+                <div class="col-sm-6 col-lg-3 mt-2-9">
+                    <h3 class="h5 mb-1-9">NewsLetter</h3>
+                    <p class="text-white">Subscribe to our newsletter for discounts and more.</p>
+                    <form class="quform newsletter-form" action="quform/newsletter-two.php" method="post" enctype="multipart/form-data" onclick="">
 
-                <div class="col-md-6">
-                    <!-- Works Item Start -->
-                    <div class="works-item wow fadeInUp" data-wow-delay="0.75s">
-                        <div class="works-image">
-                            <figure class="image-anime">
-                                <img src="/assets/images/works-img-3.jpg" alt="">
-                            </figure>
-                        </div>
-                        <div class="works-content">
-                            <h2>Blue Horizon Initiative</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        </div>
-                    </div>
-                    <!-- Works Item End -->
-                </div>
+                        <div class="quform-elements">
 
-                <div class="col-md-6">
-                    <!-- Works Item Start -->
-                    <div class="works-item wow fadeInUp" data-wow-delay="1s">
-                        <div class="works-image">
-                            <figure class="image-anime">
-                                <img src="/assets/images/works-img-4.jpg" alt="">
-                            </figure>
-                        </div>
-                        <div class="works-content">
-                            <h2>Project Alpha</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        </div>
-                    </div>
-                    <!-- Works Item End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Our Work Section End -->
+                            <div class="row">
 
-    <!-- Why Choose Us Section Start -->
-    <div class="why-choose-us">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-8 col-md-12">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">why choose us</h3>
-                        <h2 class="text-anime-style-3">Why choose us ?</h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <!-- Why Choose Item Start -->
-                    <div class="why-choose-us-item wow fadeInUp" data-wow-delay="0.25s">
-                        <div class="icon-box">
-                            <img src="/assets/images/icon-whyus-1.svg" alt="">
-                        </div>
-                        <h3>innovation</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
-                    </div>
-                    <!-- Why Choose Item End -->
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <!-- Why Choose Item Start -->
-                    <div class="why-choose-us-item wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="icon-box">
-                            <img src="/assets/images/icon-whyus-2.svg" alt="">
-                        </div>
-                        <h3>quality-focused</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
-                    </div>
-                    <!-- Why Choose Item End -->
-                </div>
-
-                <div class="col-lg-4">
-                    <!-- Why Choose Item Start -->
-                    <div class="why-choose-us-item wow fadeInUp" data-wow-delay="0.75s">
-                        <div class="icon-box">
-                            <img src="/assets/images/icon-whyus-3.svg" alt="">
-                        </div>
-                        <h3>value for money</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
-                    </div>
-                    <!-- Why Choose Item End -->
-                </div>
-
-                <div class="col-md-12">
-                    <!-- Why Us Explore Item Start -->
-                    <div class="why-us-explore-item">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="why-us-section-title">
-                                    <!-- Section Title Start -->
-                                    <div class="section-title">
-                                        <h2 class="text-anime-style-3">Do you want to explore our outstanding work?</h2>
+                                <!-- Begin Text input element -->
+                                <div class="col-md-12">
+                                    <div class="quform-element">
+                                        <div class="quform-input">
+                                            <input class="form-control" id="email_address" type="text" name="email_address" placeholder="Subscribe with us" />
+                                        </div>
                                     </div>
-                                    <!-- Section Title End -->
+                                </div>
+                                <!-- End Text input element -->
 
-                                    <!-- Explore Item Icon Start -->
-                                    <div class="explore-item-icon">
-                                        <img src="/assets/images/icon-whyus-4.svg" alt="">
+                                <!-- Begin Submit button -->
+                                <div class="col-md-12">
+                                    <div class="quform-submit-inner">
+                                        <button class="butn-style4 white-hover border-0 w-100" type="submit"><span>Subscribe</span></button>
                                     </div>
-                                    <!-- Explore Item Icon End -->
+                                    <div class="quform-loading-wrap text-center"><span class="quform-loading"></span></div>
                                 </div>
-                            </div>
-                        </div>                        
+                                <!-- End Submit button -->
 
-                        <div class="row align-items-center">
-                            <div class="col-lg-6">
-                                <!-- Explore Item Content Start -->
-                                <div class="explore-item-content wow fadeInUp" data-wow-delay="0.25s">
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium , totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit.</p>
-                                </div>
-                                <!-- Explore Item Content End -->
                             </div>
 
-                            <div class="col-lg-6">
-                                <!-- Explore Item Content Start -->
-                                <div class="explore-item-tags wow fadeInUp" data-wow-delay="0.25s">
-                                    <ul>
-                                        <li><a href="#" class="btn-default">dribbble</a></li>
-                                        <li><a href="#" class="btn-default">linkedin</a></li>
-                                        <li><a href="#" class="btn-default">contact Us</a></li>
-                                    </ul>
-                                </div>
-                                <!-- Explore Item Content End -->
-                            </div>
-                        </div>                        
-                    </div>
-                    <!-- Why Us Explore Item End -->
+                        </div>
+
+                    </form>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Why Choose Us Section End -->
-
-    <!-- Exclusive Partners Section Start -->
-    <div class="exclusive-partners">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-12">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">executive partners</h3>
-                        <h2 class="text-anime-style-3">100+ Partners & supporters</h2>
+        <div class="footer-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <p>&copy; <span class="current-year"></span> Advisor is Powered by <a href="#!" class="text-primary text-white-hover">CKT Themes</a></p>
                     </div>
-                    <!-- Section Title End -->
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-3 col-6">
-                    <!-- Partners Logo Start -->
-                    <div class="partners-logo wow fadeInUp" data-wow-delay="0.2s">
-                        <img src="/assets/images/icon-partners-1.svg" alt="">
-                    </div>
-                    <!-- Partners Logo End -->
-                </div>
-
-                <div class="col-lg-3 col-6">
-                    <!-- Partners Logo Start -->
-                    <div class="partners-logo wow fadeInUp" data-wow-delay="0.4s">
-                        <img src="/assets/images/icon-partners-2.svg" alt="">
-                    </div>
-                    <!-- Partners Logo End -->
-                </div>
-
-                <div class="col-lg-3 col-6">
-                    <!-- Partners Logo Start -->
-                    <div class="partners-logo wow fadeInUp" data-wow-delay="0.6s">
-                        <img src="/assets/images/icon-partners-3.svg" alt="">
-                    </div>
-                    <!-- Partners Logo End -->
-                </div>
-
-                <div class="col-lg-3 col-6">
-                    <!-- Partners Logo Start -->
-                    <div class="partners-logo wow fadeInUp" data-wow-delay="0.8s">
-                        <img src="/assets/images/icon-partners-4.svg" alt="">
-                    </div>
-                    <!-- Partners Logo End -->
-                </div>
-
-                <div class="col-lg-3 col-6">
-                    <!-- Partners Logo Start -->
-                    <div class="partners-logo wow fadeInUp" data-wow-delay="1s">
-                        <img src="/assets/images/icon-partners-3.svg" alt="">
-                    </div>
-                    <!-- Partners Logo End -->
-                </div>
-
-                <div class="col-lg-3 col-6">
-                    <!-- Partners Logo Start -->
-                    <div class="partners-logo wow fadeInUp" data-wow-delay="1.2s">
-                        <img src="/assets/images/icon-partners-4.svg" alt="">
-                    </div>
-                    <!-- Partners Logo End -->
-                </div>
-
-                <div class="col-lg-3 col-6">
-                    <!-- Partners Logo Start -->
-                    <div class="partners-logo wow fadeInUp" data-wow-delay="1.4s">
-                        <img src="/assets/images/icon-partners-1.svg" alt="">
-                    </div>
-                    <!-- Partners Logo End -->
-                </div>
-
-                <div class="col-lg-3 col-6">
-                    <!-- Partners Logo Start -->
-                    <div class="partners-logo wow fadeInUp" data-wow-delay="1.6s">
-                        <img src="/assets/images/icon-partners-2.svg" alt="">
-                    </div>
-                    <!-- Partners Logo End -->
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Exclusive Partners Section End -->
-
-    <!-- Clients Testimonials Section Start -->
-	<div class="clients-testimonials">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-8 col-md-12">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">client testimonials</h3>
-                        <h2 class="text-anime-style-3">Our customers love us.</h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-            </div>
-
-            <div class="row">
-				<div class="col-md-12">
-					<!-- Testimonial Slider Start -->
-					<div class="testimonial-slider">
-						<div class="swiper">
-							<div class="swiper-wrapper">
-								<!-- Testimonial Slide Start -->
-								<div class="swiper-slide">
-									<div class="testimonial-item">
-										<div class="testimonial-rating">
-                                            <img src="/assets/images/icon-star.svg" alt="">
-                                        </div>										
-
-                                        <div class="testimonial-content">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
-                                        </div>											
-
-                                        <div class="testimonial-body">
-                                            <figure class="image-anime">
-                                                <img src="/assets/images/author-1.jpg" alt="">
-                                            </figure>
-                                            <div class="testimonial-author-title">
-                                                <h2>John Doe</h2>
-                                                <p>Acme Solutions</p>
-                                            </div>										
-                                        </div>													
-									</div>
-								</div>
-								<!-- Testimonial Slide End -->
-                                
-                                <!-- Testimonial Slide Start -->
-								<div class="swiper-slide">
-									<div class="testimonial-item">
-										<div class="testimonial-rating">
-                                            <img src="/assets/images/icon-star.svg" alt="">
-                                        </div>										
-
-                                        <div class="testimonial-content">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
-                                        </div>											
-
-                                        <div class="testimonial-body">
-                                            <figure class="image-anime">
-                                                <img src="/assets/images/author-2.jpg" alt="">
-                                            </figure>
-                                            <div class="testimonial-author-title">
-                                                <h2>Arita Banson</h2>
-                                                <p>Delta Innovation</p>
-                                            </div>										
-                                        </div>													
-									</div>
-								</div>
-								<!-- Testimonial Slide End -->
-
-                                <!-- Testimonial Slide Start -->
-								<div class="swiper-slide">
-									<div class="testimonial-item">
-										<div class="testimonial-rating">
-                                            <img src="/assets/images/icon-star.svg" alt="">
-                                        </div>										
-
-                                        <div class="testimonial-content">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
-                                        </div>											
-
-                                        <div class="testimonial-body">
-                                            <figure class="image-anime">
-                                                <img src="/assets/images/author-3.jpg" alt="">
-                                            </figure>
-                                            <div class="testimonial-author-title">
-                                                <h2>Banson Doe</h2>
-                                                <p>Horizon Ventures</p>
-                                            </div>										
-                                        </div>													
-									</div>
-								</div>
-								<!-- Testimonial Slide End -->
-
-                                <!-- Testimonial Slide Start -->
-								<div class="swiper-slide">
-									<div class="testimonial-item">
-										<div class="testimonial-rating">
-                                            <img src="/assets/images/icon-star.svg" alt="">
-                                        </div>										
-
-                                        <div class="testimonial-content">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
-                                        </div>											
-
-                                        <div class="testimonial-body">
-                                            <figure class="image-anime">
-                                                <img src="/assets/images/author-2.jpg" alt="">
-                                            </figure>
-                                            <div class="testimonial-author-title">
-                                                <h2>John Doe</h2>
-                                                <p>Omega Solutions</p>
-                                            </div>										
-                                        </div>													
-									</div>
-								</div>
-								<!-- Testimonial Slide End -->             
-							</div>
-							<div class="swiper-pagination"></div>
-						</div>
-					</div>
-					<!-- Testimonial Slider End -->
-				</div>
-			</div>
-        </div>
-    </div>
-    <!-- Clients Testimonials Section End -->
-
-    <!-- Latest News Section Start -->
-	<div class="latest-news">
-		<div class="container">
-			<div class="row section-row align-items-center">
-                <div class="col-lg-6 col-md-8">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">Latest Blog & Articles</h3>
-                        <h2 class="text-anime-style-3">The latest insights you need to know</h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-
-                <div class="col-lg-6 col-md-4">
-                    <!-- Section Btn Start -->
-                    <div class="section-btn wow fadeInUp" data-wow-delay="0.25s">
-                        <a href="#" class="btn-default">view all articles</a>
-                    </div>
-                    <!-- Section Btn End -->
-                </div>
-            </div>
-
-			<div class="row">
-				<div class="col-lg-4 col-md-6">
-					<!-- Blog Item Start -->
-					<div class="blog-item wow fadeInUp" data-wow-delay="0.25s">
-						<!-- Blog Image Start -->
-						<div class="post-featured-image">
-							<figure class="image-anime">
-								<a href="#"><img src="/assets/images/post-1.jpg" alt=""></a>
-							</figure>
-						</div>
-						<!-- Blog Image End -->
-
-						<!-- Blog Content Start -->
-						<div class="post-item-body">
-                            <p><a href="#">10 April 2024</a></p>
-							<h2><a href="#">Unlocking the Potential of AI in Business Success</a></h2>                            
-						</div>
-						<!-- Blog Content End -->
-					</div>
-					<!-- Blog Item End -->
-				</div>
-
-                <div class="col-lg-4 col-md-6">
-					<!-- Blog Item Start -->
-					<div class="blog-item wow fadeInUp" data-wow-delay="0.5s">
-						<!-- Blog Image Start -->
-						<div class="post-featured-image">
-							<figure class="image-anime">
-								<a href="#"><img src="/assets/images/post-2.jpg" alt=""></a>
-							</figure>
-						</div>
-						<!-- Blog Image End -->
-
-						<!-- blog content Start -->
-						<div class="post-item-body">
-                            <p><a href="#">10 April 2024</a></p>
-							<h2><a href="#">Strategies for Building a Successful Distributed Team</a></h2>                            
-						</div>
-						<!-- Blog Content End -->
-					</div>
-					<!-- Blog Item End -->
-				</div>
-
-                <div class="col-lg-4 col-md-6">
-					<!-- Blog Item Start -->
-					<div class="blog-item wow fadeInUp" data-wow-delay="0.75s">
-						<!-- Blog Image Start -->
-						<div class="post-featured-image">
-							<figure class="image-anime">
-								<a href="#"><img src="/assets/images/post-3.jpg" alt=""></a>
-							</figure>
-						</div>
-						<!-- Blog Image End -->
-
-						<!-- Blog Content Start -->
-						<div class="post-item-body">
-                            <p><a href="#">10 April 2024</a></p>
-							<h2><a href="#">Empowering Citizen Developers and Accelerating Innovation</a></h2>                            
-						</div>
-						<!-- Blog Content End -->
-					</div>
-					<!-- Blog Item End -->
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Latest News Section End -->
-
-    <!-- Footer Start -->
-	<footer class="main-footer">
-        <div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<!-- Mega Footer Start -->
-					<div class="mega-footer">
-						<div class="row">
-							<div class="col-lg-6 col-md-12">
-								<!-- Footer About Start -->
-								<div class="footer-about">
-									<figure>
-										<img src="/assets/images/footer-logo.svg" alt="">
-									</figure>
-									<p>Creative Agency Based on Lorem Ipsum</p>
-                                    <ul>
-                                        <li><a href="#">info@domainname.com</a></li>
-                                        <li><a href="#">(+0) 123 456 789</a></li>
-                                    </ul>
-								</div>
-								<!-- Footer About End -->
-							</div>
-
-							<div class="col-lg-2 col-md-4">
-								<!-- Footer Links Start -->
-								<div class="footer-links">
-									<h2>pages</h2>
-									<ul>
-										<li><a href="#">Home</a></li>
-										<li><a href="#">About Us</a></li>
-										<li><a href="#">Services</a></li>
-										<li><a href="#">Blog</a></li>
-										<li><a href="#">Contact Us</a></li>
-									</ul>
-								</div>
-								<!-- Footer Links End -->
-							</div>
-
-							<div class="col-lg-2 col-md-4">
-								<!-- Footer Links Start -->
-								<div class="footer-links">
-									<h2>Socials</h2>
-									<ul>
-										<li><a href="#">instagram</a></li>
-										<li><a href="#">facebook</a></li>
-										<li><a href="#">twitter</a></li>
-										<li><a href="#">linkedin</a></li>
-									</ul>
-								</div>
-								<!-- Footer Links End -->
-							</div>
-
-							<div class="col-lg-2 col-md-4">
-								<!-- Footer Links Start -->
-								<div class="footer-links">
-									<h2>services</h2>
-									<ul>
-										<li><a href="#">web development</a></li>
-										<li><a href="#">digital marketing</a></li>
-										<li><a href="#">game development</a></li>
-										<li><a href="#">mobile app development</a></li>
-										<li><a href="#">networking services</a></li>
-									</ul>
-								</div>
-								<!-- Footer Links End -->
-							</div>
-						</div>
-					</div>
-					<!-- Mega Footer End -->
-
-					<!-- Copyright Footer Start -->
-					<div class="footer-copyright">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6">
-                                <!-- Footer Copyright Content Start -->
-								<div class="footer-copyright-text">
-									<p>Copyright © 2024 weebix. All rights reserved.</p>
-								</div>
-								<!-- Footer Copyright Content End -->
-                            </div>
-                            <div class="col-lg-6">
-                                <!-- Footer Policy Links Start -->
-                                <div class="footer-policy-links">
-                                    <ul>
-                                        <li><a href="#">privacy policy</a></li>
-                                        <li><a href="#">terms of service</a></li>
-                                        <li class="highlighted"><a href="#top">go to top</a></li>
-                                    </ul>
-                                </div>
-                                <!-- Footer Policy Links End -->
-                            </div>
-                        </div>						
-					</div>
-					<!-- Copyright Footer End -->
-				</div>
-			</div>
-		</div>
     </footer>
-    <!-- Footer End -->    
+
+    </div>
+
+    <!-- SCROLL TO TOP
+    ================================================== -->
+    <div class="scroll-top-percentage"><span id="scroll-value"></span></div>
+
 </template>
